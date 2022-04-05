@@ -8,7 +8,7 @@ let result = document.getElementById('result')
 const guess = {
     max: 10,
     attemptsnumber: 0,
-    numberdrawm: function ramdomvalue(){
+    numberdrawm: function randomvalue(){
         return Math.round(Math.random() * this.max);
     }
 }
