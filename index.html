@@ -9,18 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
     <title>guess number</title>
 </head>
 
 
 <body>
      
-<header><a href="#"><h1>Guess number</h1></a></header>
+<header>
+    <a href="#"><h1>Guess number</h1></a>
+</header>
 
 <main class="container">
-    <form>
-        <label for="kick">Digite um número (0 - 10)</label>
+    <form id ="form">
+        <label for="kick">Digite um número (0 - 10):</label>
         <input type="number" id="kick" max="10" placeholder="0">
 
         <button type="submit">Jogar!</button>
